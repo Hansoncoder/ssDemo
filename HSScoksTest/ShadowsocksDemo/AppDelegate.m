@@ -23,10 +23,10 @@ static ShadowsocksClient *proxy;
     // Override point for customization after application launch.
     
     //实例化一个shadowsocks client类，并赋予类的一些属性
-    proxy = [[ShadowsocksClient alloc] initWithHost:@"*.*.*.*" // ss服务端ip
-                                               port:443   // ss服务端端口
-                                           password:@"passwd" // ss服务端用户密码
-                                             method:@"aes-128-cfb"]; // 密码加密方式
+    proxy = [[ShadowsocksClient alloc] initWithHost:<#@"*.*.*.*"#> // ss服务端ip
+                                               port:<#443#>   // ss服务端端口
+                                           password:<#@"passwd"#> // ss服务端用户密码
+                                             method:<#@"aes-128-cfb"#>]; // 密码加密方式
     //proxy类是NSURLProtocol的子类，,处理socket的accept和bind()等事件及其回调
     //proxy可以将流量导到代理服务器上去
     [proxy startWithLocalPort:10802];

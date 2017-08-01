@@ -10,15 +10,15 @@
 		C01016071F298C650095C740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01016051F298C650095C740 /* Main.storyboard */; };
 		C01016091F298C650095C740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01016081F298C650095C740 /* Assets.xcassets */; };
 		C010160C1F298C650095C740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C010160A1F298C650095C740 /* LaunchScreen.storyboard */; };
-		C010161E1F298D2C0095C740 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C01016161F298D2C0095C740 /* GCDAsyncSocket.m */; };
-		C010161F1F298D2C0095C740 /* encrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = C01016181F298D2C0095C740 /* encrypt.c */; };
-		C01016201F298D2C0095C740 /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C010161B1F298D2C0095C740 /* openssl.framework */; };
-		C01016291F298EA90095C740 /* ShadowsocksClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C01016281F298EA90095C740 /* ShadowsocksClient.m */; };
-		C010162C1F29CADB0095C740 /* SSProxyProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C010162B1F29CADB0095C740 /* SSProxyProtocol.m */; };
-		C07471051F30610A00D149A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C07471001F30610A00D149A7 /* AppDelegate.m */; };
-		C07471061F30610A00D149A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C07471011F30610A00D149A7 /* Info.plist */; };
-		C07471071F30610A00D149A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C07471021F30610A00D149A7 /* main.m */; };
-		C07471081F30610A00D149A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07471041F30610A00D149A7 /* ViewController.m */; };
+		C07471221F306C0700D149A7 /* SSProxyProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C074710C1F306C0700D149A7 /* SSProxyProtocol.m */; };
+		C07471231F306C0700D149A7 /* ShadowsocksClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C074710F1F306C0700D149A7 /* ShadowsocksClient.m */; };
+		C07471241F306C0700D149A7 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C07471131F306C0700D149A7 /* GCDAsyncSocket.m */; };
+		C07471251F306C0700D149A7 /* encrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = C07471151F306C0700D149A7 /* encrypt.c */; };
+		C07471261F306C0700D149A7 /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07471181F306C0700D149A7 /* openssl.framework */; };
+		C07471271F306C0700D149A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C074711D1F306C0700D149A7 /* AppDelegate.m */; };
+		C07471281F306C0700D149A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C074711E1F306C0700D149A7 /* Info.plist */; };
+		C07471291F306C0700D149A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C074711F1F306C0700D149A7 /* main.m */; };
+		C074712A1F306C0700D149A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07471211F306C0700D149A7 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,22 +27,22 @@
 		C01016061F298C650095C740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C01016081F298C650095C740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C010160B1F298C650095C740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C01016151F298D2C0095C740 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		C01016161F298D2C0095C740 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		C01016181F298D2C0095C740 /* encrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encrypt.c; sourceTree = "<group>"; };
-		C01016191F298D2C0095C740 /* encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encrypt.h; sourceTree = "<group>"; };
-		C010161B1F298D2C0095C740 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl.framework; sourceTree = "<group>"; };
-		C010161D1F298D2C0095C740 /* socks5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socks5.h; sourceTree = "<group>"; };
-		C01016271F298EA90095C740 /* ShadowsocksClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowsocksClient.h; sourceTree = "<group>"; };
-		C01016281F298EA90095C740 /* ShadowsocksClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowsocksClient.m; sourceTree = "<group>"; };
-		C010162A1F29CADB0095C740 /* SSProxyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProxyProtocol.h; sourceTree = "<group>"; };
-		C010162B1F29CADB0095C740 /* SSProxyProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProxyProtocol.m; sourceTree = "<group>"; };
-		C07470FF1F30610A00D149A7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C07471001F30610A00D149A7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C07471011F30610A00D149A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C07471021F30610A00D149A7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C07471031F30610A00D149A7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C07471041F30610A00D149A7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C074710B1F306C0700D149A7 /* SSProxyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProxyProtocol.h; sourceTree = "<group>"; };
+		C074710C1F306C0700D149A7 /* SSProxyProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProxyProtocol.m; sourceTree = "<group>"; };
+		C074710E1F306C0700D149A7 /* ShadowsocksClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowsocksClient.h; sourceTree = "<group>"; };
+		C074710F1F306C0700D149A7 /* ShadowsocksClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowsocksClient.m; sourceTree = "<group>"; };
+		C07471121F306C0700D149A7 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		C07471131F306C0700D149A7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		C07471151F306C0700D149A7 /* encrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encrypt.c; sourceTree = "<group>"; };
+		C07471161F306C0700D149A7 /* encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encrypt.h; sourceTree = "<group>"; };
+		C07471181F306C0700D149A7 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl.framework; sourceTree = "<group>"; };
+		C074711A1F306C0700D149A7 /* socks5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socks5.h; sourceTree = "<group>"; };
+		C074711C1F306C0700D149A7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C074711D1F306C0700D149A7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C074711E1F306C0700D149A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C074711F1F306C0700D149A7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C07471201F306C0700D149A7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C07471211F306C0700D149A7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C01016201F298D2C0095C740 /* openssl.framework in Frameworks */,
+				C07471261F306C0700D149A7 /* openssl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,10 +76,8 @@
 		C01015FB1F298C650095C740 /* HSScoksTest */ = {
 			isa = PBXGroup;
 			children = (
-				C07470FE1F30610A00D149A7 /* APP */,
-				C01016241F298DFD0095C740 /* HSProxyProtocol */,
-				C01016251F298DFD0095C740 /* HSSocksClient */,
-				C01016131F298D2C0095C740 /* Library */,
+				C07471091F306C0700D149A7 /* shadowsocks */,
+				C074711B1F306C0700D149A7 /* ShadowsocksDemo */,
 				C01016051F298C650095C740 /* Main.storyboard */,
 				C01016081F298C650095C740 /* Assets.xcassets */,
 				C010160A1F298C650095C740 /* LaunchScreen.storyboard */,
@@ -96,80 +94,90 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C01016131F298D2C0095C740 /* Library */ = {
+		C07471091F306C0700D149A7 /* shadowsocks */ = {
 			isa = PBXGroup;
 			children = (
-				C01016141F298D2C0095C740 /* CocoaAsyncSocket */,
-				C01016171F298D2C0095C740 /* Encrypt */,
-				C010161A1F298D2C0095C740 /* OpenSSL */,
-				C010161C1F298D2C0095C740 /* Socks5 */,
+				C074710A1F306C0700D149A7 /* HSProxyProtocol */,
+				C074710D1F306C0700D149A7 /* HSSocksClient */,
+				C07471101F306C0700D149A7 /* Library */,
 			);
-			path = Library;
+			path = shadowsocks;
 			sourceTree = "<group>";
 		};
-		C01016141F298D2C0095C740 /* CocoaAsyncSocket */ = {
+		C074710A1F306C0700D149A7 /* HSProxyProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				C01016151F298D2C0095C740 /* GCDAsyncSocket.h */,
-				C01016161F298D2C0095C740 /* GCDAsyncSocket.m */,
-			);
-			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
-		};
-		C01016171F298D2C0095C740 /* Encrypt */ = {
-			isa = PBXGroup;
-			children = (
-				C01016181F298D2C0095C740 /* encrypt.c */,
-				C01016191F298D2C0095C740 /* encrypt.h */,
-			);
-			path = Encrypt;
-			sourceTree = "<group>";
-		};
-		C010161A1F298D2C0095C740 /* OpenSSL */ = {
-			isa = PBXGroup;
-			children = (
-				C010161B1F298D2C0095C740 /* openssl.framework */,
-			);
-			path = OpenSSL;
-			sourceTree = "<group>";
-		};
-		C010161C1F298D2C0095C740 /* Socks5 */ = {
-			isa = PBXGroup;
-			children = (
-				C010161D1F298D2C0095C740 /* socks5.h */,
-			);
-			path = Socks5;
-			sourceTree = "<group>";
-		};
-		C01016241F298DFD0095C740 /* HSProxyProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				C010162A1F29CADB0095C740 /* SSProxyProtocol.h */,
-				C010162B1F29CADB0095C740 /* SSProxyProtocol.m */,
+				C074710B1F306C0700D149A7 /* SSProxyProtocol.h */,
+				C074710C1F306C0700D149A7 /* SSProxyProtocol.m */,
 			);
 			path = HSProxyProtocol;
 			sourceTree = "<group>";
 		};
-		C01016251F298DFD0095C740 /* HSSocksClient */ = {
+		C074710D1F306C0700D149A7 /* HSSocksClient */ = {
 			isa = PBXGroup;
 			children = (
-				C01016271F298EA90095C740 /* ShadowsocksClient.h */,
-				C01016281F298EA90095C740 /* ShadowsocksClient.m */,
+				C074710E1F306C0700D149A7 /* ShadowsocksClient.h */,
+				C074710F1F306C0700D149A7 /* ShadowsocksClient.m */,
 			);
 			path = HSSocksClient;
 			sourceTree = "<group>";
 		};
-		C07470FE1F30610A00D149A7 /* APP */ = {
+		C07471101F306C0700D149A7 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				C07470FF1F30610A00D149A7 /* AppDelegate.h */,
-				C07471001F30610A00D149A7 /* AppDelegate.m */,
-				C07471011F30610A00D149A7 /* Info.plist */,
-				C07471021F30610A00D149A7 /* main.m */,
-				C07471031F30610A00D149A7 /* ViewController.h */,
-				C07471041F30610A00D149A7 /* ViewController.m */,
+				C07471111F306C0700D149A7 /* CocoaAsyncSocket */,
+				C07471141F306C0700D149A7 /* Encrypt */,
+				C07471171F306C0700D149A7 /* OpenSSL */,
+				C07471191F306C0700D149A7 /* Socks5 */,
 			);
-			path = APP;
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C07471111F306C0700D149A7 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				C07471121F306C0700D149A7 /* GCDAsyncSocket.h */,
+				C07471131F306C0700D149A7 /* GCDAsyncSocket.m */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		C07471141F306C0700D149A7 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				C07471151F306C0700D149A7 /* encrypt.c */,
+				C07471161F306C0700D149A7 /* encrypt.h */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		C07471171F306C0700D149A7 /* OpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				C07471181F306C0700D149A7 /* openssl.framework */,
+			);
+			path = OpenSSL;
+			sourceTree = "<group>";
+		};
+		C07471191F306C0700D149A7 /* Socks5 */ = {
+			isa = PBXGroup;
+			children = (
+				C074711A1F306C0700D149A7 /* socks5.h */,
+			);
+			path = Socks5;
+			sourceTree = "<group>";
+		};
+		C074711B1F306C0700D149A7 /* ShadowsocksDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C074711C1F306C0700D149A7 /* AppDelegate.h */,
+				C074711D1F306C0700D149A7 /* AppDelegate.m */,
+				C074711E1F306C0700D149A7 /* Info.plist */,
+				C074711F1F306C0700D149A7 /* main.m */,
+				C07471201F306C0700D149A7 /* ViewController.h */,
+				C07471211F306C0700D149A7 /* ViewController.m */,
+			);
+			path = ShadowsocksDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C07471061F30610A00D149A7 /* Info.plist in Resources */,
+				C07471281F306C0700D149A7 /* Info.plist in Resources */,
 				C010160C1F298C650095C740 /* LaunchScreen.storyboard in Resources */,
 				C01016091F298C650095C740 /* Assets.xcassets in Resources */,
 				C01016071F298C650095C740 /* Main.storyboard in Resources */,
@@ -245,13 +253,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C01016291F298EA90095C740 /* ShadowsocksClient.m in Sources */,
-				C010162C1F29CADB0095C740 /* SSProxyProtocol.m in Sources */,
-				C07471081F30610A00D149A7 /* ViewController.m in Sources */,
-				C07471051F30610A00D149A7 /* AppDelegate.m in Sources */,
-				C010161E1F298D2C0095C740 /* GCDAsyncSocket.m in Sources */,
-				C010161F1F298D2C0095C740 /* encrypt.c in Sources */,
-				C07471071F30610A00D149A7 /* main.m in Sources */,
+				C074712A1F306C0700D149A7 /* ViewController.m in Sources */,
+				C07471241F306C0700D149A7 /* GCDAsyncSocket.m in Sources */,
+				C07471231F306C0700D149A7 /* ShadowsocksClient.m in Sources */,
+				C07471221F306C0700D149A7 /* SSProxyProtocol.m in Sources */,
+				C07471251F306C0700D149A7 /* encrypt.c in Sources */,
+				C07471291F306C0700D149A7 /* main.m in Sources */,
+				C07471271F306C0700D149A7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,8 +386,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HSScoksTest/Library/OpenSSL",
+					"$(PROJECT_DIR)/HSScoksTest/shadowsocks/Library/OpenSSL",
 				);
-				INFOPLIST_FILE = HSScoksTest/APP/Info.plist;
+				INFOPLIST_FILE = HSScoksTest/ShadowsocksDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hansoncoder.icloud.HSScoksTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -395,8 +404,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HSScoksTest/Library/OpenSSL",
+					"$(PROJECT_DIR)/HSScoksTest/shadowsocks/Library/OpenSSL",
 				);
-				INFOPLIST_FILE = HSScoksTest/APP/Info.plist;
+				INFOPLIST_FILE = HSScoksTest/ShadowsocksDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hansoncoder.icloud.HSScoksTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
